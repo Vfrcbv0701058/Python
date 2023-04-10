@@ -1,22 +1,36 @@
 l = [] 
 lis = [1,56,'x', 34, 2.34, ['s','t','r','o','k','a']]
-print(lis)
+print(lis[5][4])
 
-a = [a+b for a in 'list' if a != 's' for b in 'soup' if b!='u']
-print(a)
+for i in range(len(lis)):
+    print(lis[i])
 
-l.append (23)
-l.append (34)
-b = [24,67]
-l.extend (b)
-l.insert (1, 56)
-l.append (34)
-l.remove (34)
-l.pop (0)
-l.sort ()
-l.reverse ()
-l.clear ()
+n = int(input("Enter lenght: "))
+i = 0
+user_list = []
+while i < n :
+    string = "Enter element #" + str(i + 1) + ": "
+    user_list.append(input(string))
+    i +=1
 
-print(l)
-print (l.index(56))
-print (l.count(34))
+print(user_list)
+
+
+# a = [a+b for a in 'list' if a != 's' for b in 'soup' if b!='u']
+# print(a)
+
+# lis.append (23)
+# lis.append (34)
+# b = [24,67]
+# lis.extend (b)
+# lis.insert (1, 56)
+# lis.append (34)
+# lis.remove (34)
+# lis.pop (0)
+# lis.sort ()
+# lis.reverse ()
+# lis.clear ()
+
+# print(lis)
+# print (lis.index(56))
+# print (lis.count(34))
