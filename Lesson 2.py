@@ -6,7 +6,7 @@ elif num < 0:
     print("< 0")
 else:
     print("num = 0")
-print("Hello 1")
+    print("Hello 1")
 
 # Смена значения переменнй с помощью условного оператора
 name = input()
