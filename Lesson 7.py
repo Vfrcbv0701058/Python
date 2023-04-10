@@ -1,13 +1,18 @@
-# a = (43,56,45.7,'d')
-# b = [43,56,45.7,'d']
+data = (4, 6, 7, 3, 6, True, 5.6, "Hello")
+print(data[1:5])
+# data[0] = 5 - no
+print(data.count(6))
+print(len(data))
 
-# b[0]=4
+data_1 = 1, 4, 6, 2, 3.6, True # это тоже кортеж
+print(data_1)
+data_2 = (5) # это не кортеж
+data_2 = (5,) #это кортеж
+print(data_2)
 
-# print(a.__sizeof__())
-# print(b.__sizeof__())
+for el in data:
+    print(el)
 
-a = tuple("hello world")
-print(a)
-
-a = ("hello world", "sdf", 345)
-print(a)
+nums = [5, 6, 2]
+new_data = tuple(nums)
+print(new_data)
