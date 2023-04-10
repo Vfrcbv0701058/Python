@@ -1,13 +1,10 @@
-# a = (43,56,45.7,'d')
-# b = [43,56,45.7,'d']
+l=[34,'ssd',56,34.34]
+# print (l[-2])
 
-# b[0]=4
+i=0
+while i<4:
+    print (l[i])
+    i+=1
 
-# print(a.__sizeof__())
-# print(b.__sizeof__())
-
-a = tuple("hello world")
-print(a)
-
-a = ("hello world", "sdf", 345)
-print(a)
+print(l[::2])
+print(l[::-2])
